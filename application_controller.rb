@@ -1,6 +1,6 @@
-require 'Sinatra'
-require 'bundler'
 Bundler.require
+require 'sinatra'
+require 'bundler'
 require_relative 'models/pig_latinize.rb'
 require_relative 'models/caesar_cypher.rb'
 
