@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pig Latin</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  </head>
+  
+  <body>
+    <h1>Pig Latinizer</h1>
+
+    <form method="POST" action="/results">
+      First name: <br>
+      <input type="text" name="first_name" size="20">
+      <br>
+      Type your sentence homie!:<br>
+      <input type="text" name="sentence" size="50">
+      <br>
+      <br>
+      <input type="submit" value="Pig Latinize">
+    </form>
+
+    <h1>Caesar Cipher</h1>
+
+    <form method="POST" action="/results_cypher_encode">
+      Encode:<br>
+      <textarea name="needs_encode" cols="50" rows="5" placeholder="Type/Paste Text you want encoded"></textarea>
+      <br>
+      <input type="text" name="encode_shift" placeholder="crypto shift">
+      <input type="submit" value="Encode">
+    </form>
+
+    <form  method="POST" action="/results_cypher_decode">    
+      <br>
+      Decode:<br>
+      <textarea name="needs_decode" cols="50" rows="5"placeholder="Type/Paste Text you want encoded"></textarea>
+      <br>
+      <input type="text" name="decode_shift" placeholder="crypto shift">
+      <input type="submit" value="Decode">
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,13 @@
+body{
+  background-image: url(../images/food.png);
+/*  background-color: purple;*/
+  text-align: center;
+  font-family: 'Arvo', serif;
+}
+
+input[type="submit"]{
+  width: 80px;
+  margin-top: 1em;
+
+}
+  
